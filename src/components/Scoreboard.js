@@ -6,10 +6,10 @@ export default function Scoreboard() {
   // LIFTING THE STATE HERE:
   // The parent component decides the state of the child component.
   const [players, set_players] = useState([
-    { id: 1, name: "Violeta", score: 11 },
-    { id: 2, name: "Eszter", score: 14 },
-    { id: 3, name: "Jeroen v2", score: 4 },
-    { id: 4, name: "Lisa", score: 42 },
+    { id: 1, name: "Daniel", score: 10 },
+    { id: 2, name: "Remy", score: 7 },
+    { id: 3, name: "Guido", score: 9 },
+    { id: 4, name: "Jan", score: 12 },
   ]);
 
   const [sort_by, set_sort_by] = useState("score"); // either "score" or "name"
